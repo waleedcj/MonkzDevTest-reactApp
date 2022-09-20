@@ -1,0 +1,71 @@
+@keyframes example {
+  0% {
+    color: #dad870;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    color: #ffcd58;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    color: orange;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    color: #FF5C4D(201, 94, 7);
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    color: #dad870;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.wrapperSpec {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+.accordion {
+  width: 500px;
+}
+
+.itemspec {
+  background: 5px;
+  padding: 10px 20px;
+}
+
+.titleSpec {
+  display: flex;
+  justify-content: space-between;
+  font-family: "ST-SimpleSquare", sans-serif;
+  color: #dd4040;
+  font-size: 35px;
+  line-height: 35px;
+  align-items: center;
+}
+
+.contentSpec {
+  color: azure;
+  font-size: 20px;
+  line-height: 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.contentSpec.show {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}

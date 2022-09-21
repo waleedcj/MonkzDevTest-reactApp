@@ -15,6 +15,11 @@ import Factions from "./pages/Factions";
 import "./js/common";
 import { ParallaxProvider } from "react-scroll-parallax";
 import Manifest from "./pages/Manifest";
+import Ascension from "./pages/Ascension";
+import Team from "./pages/Team";
+import Advisory from "./pages/Advisory";
+import Roadmap from "./pages/Roadmap";
+import Socials from "./pages/Socials";
 
 function App() {
   return (
@@ -30,6 +35,11 @@ function App() {
           <Factions />
         </ParallaxProvider>
         <Manifest />
+        <Ascension />
+        <Team />
+        <Advisory />
+        <Roadmap />
+        <Socials />
       </body>
     </div>
   );

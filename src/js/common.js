@@ -611,7 +611,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   //-manifest----------------------------------------------------------------------
-  useEffect(() => {});
+
   const manifestoSection = document.querySelector(".manifestoSection");
 
   if (manifestoSection) {

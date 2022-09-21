@@ -3166,15 +3166,21 @@ section {
   align-items: stretch;
 }
 .teamSection .teamSwiper .swiper-slide {
-  opacity: 0.4;
-  padding-bottom: 42px;
-  height: auto;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-image: url("/public/img/main/fractions/square.svg");
+  background-size: contain;
 }
 .teamSection .teamSwiper .swiper-slide-active {
   opacity: 1;
+  background-image: url("/public/img/main/fractions/square.svg");
 }
 .teamSection .teamSwiper .swiper-slide-prev {
-  opacity: 0;
+  opacity: 1;
 }
 .teamSection .teamSwiper .swiper-slide:after {
   content: "";

@@ -24,6 +24,7 @@
     "react-scroll-motion": "^0.3.0",
     "react-scroll-parallax": "^3.3.1",
     "react-spring": "^9.5.4",
+    "react-svgmt": "^1.2.0",
     "react-wow": "^1.0.0",
     "swiper": "^8.4.2",
     "typewriter-effect": "^2.19.0",

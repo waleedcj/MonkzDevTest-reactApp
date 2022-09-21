@@ -879,6 +879,21 @@ textarea:focus::placeholder {
     opacity: 0;
   }
 }
+
+@keyframes hideshow {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .main-wrapper {
   padding: 0 0 0 0;
   min-width: 320px;
@@ -2706,7 +2721,7 @@ section {
 }
 .manifestoSection .image [data-path]:nth-child(1) {
   -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
+  transition-delay: 1s;
 }
 .manifestoSection .image [data-path]:nth-child(2) {
   -webkit-transition-delay: 0.2s;

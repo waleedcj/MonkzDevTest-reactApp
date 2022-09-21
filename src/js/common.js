@@ -9,6 +9,7 @@ import "../css/style.css";
 
 import "../css/animate.css";
 import Cursor from "../components/Cursor";
+import { useEffect } from "react";
 
 document.addEventListener("DOMContentLoaded", function () {
   const body = document.querySelector("body");
@@ -609,9 +610,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  //-manifest----------------------------------------------------------------------
+  useEffect(() => {});
   const manifestoSection = document.querySelector(".manifestoSection");
 
   if (manifestoSection) {
+    console.log("OOOOOOOOOOKKKKKKKKKKKKKKKKK LETS GOOOOOOOO");
     const image = document.querySelector(".manifestoSection .image");
 
     let oldScrollY = 0;
@@ -797,12 +801,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // }
 
-    window.addEventListener("scroll", function () {
-      if (image.classList.contains("animated") == false) {
-        Visible(manifestoSection, imageAnimated);
-      }
+    useEffect(() => {
+      window.addEventListener("scroll", function () {
+        if (image.classList.contains("animated") == false) {
+          Visible(manifestoSection, imageAnimated);
+        }
+      });
     });
+  } else {
+    console.log("not there sir");
   }
+
+  //-------------------------------------------------------------
 
   const coursesBlocks = document.querySelector(".courses-swiper");
 

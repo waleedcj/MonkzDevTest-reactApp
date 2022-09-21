@@ -93,8 +93,7 @@ const Factions = () => {
       <section className="fractionsSection section">
         <section className="fractionsSection section">
           <div className="wrapper">
-            <div ref={SectionRef} className="fractions">
-              {` ${myElementIsVisible}`}
+            <div className="fractions">
               <div className="fractions-el fractions-el1"></div>
               <div className="fractions-el fractions-el2"></div>
               <div className="fractions-el fractions-el3"></div>
@@ -172,8 +171,6 @@ const Factions = () => {
                         loop={true}
                         direction={"vertical"}
                         initialSlide={2}
-                        onSlideChange={() => console.log("slide change")}
-                        onSwiper={(swiper) => console.log(swiper)}
                       >
                         <div className="swiper-wrapper">
                           <SwiperSlide>

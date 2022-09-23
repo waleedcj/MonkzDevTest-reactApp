@@ -1,0 +1,148 @@
+.main-wrapper {
+  padding: 0 0 0 0;
+  min-width: 320px;
+  width: 100%;
+  position: relative;
+  min-height: 100%;
+}
+.wrapper {
+  min-width: 320px;
+  max-width: 1200px;
+  padding: 0 15px 0 15px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.educationPage .education {
+  padding: 57px 0 60px;
+}
+.educationPage .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.educationPage .filters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.educationPage .filter {
+  border: 3px dashed #dd4040;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  white-space: nowrap;
+  padding: 14px 27px 15px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  margin: 0 0 10px 10px;
+}
+.educationPage .filter.active {
+  background: #dd4040;
+  border-style: solid;
+  pointer-events: none;
+}
+.educationPage .filter:hover {
+  color: #dd4040;
+}
+.educationPage .content {
+  margin-top: 47px;
+}
+.educationPage .blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+.educationPage .blocks-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0 15px;
+  width: calc(33.333% - 30px);
+}
+.educationPage .block {
+  margin-bottom: 30px;
+}
+.educationPage .mobile {
+  display: none;
+}
+@media (max-width: 998px) {
+  .educationPage .top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .educationPage .filters {
+    margin-top: 20px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .educationPage .filter {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .educationPage .education {
+    padding-top: 20px;
+  }
+  .educationPage .mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .educationPage .desktop {
+    display: none;
+  }
+  .educationPage .blocks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .educationPage .block {
+    width: calc(50% - 30px);
+    margin: 0 15px 20px 15px;
+  }
+  .educationPage .filter {
+    padding: 10px 21px 9px;
+  }
+  .educationPage .content {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 540px) {
+  .educationPage .block {
+    width: calc(100% - 30px);
+  }
+}
+
+.wrapper:after,
+.row:after {
+  display: none;
+}

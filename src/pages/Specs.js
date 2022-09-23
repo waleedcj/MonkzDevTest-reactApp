@@ -76,7 +76,7 @@ const Specs = () => {
   };
 
   return (
-    <div>
+    <div id="Specs">
       <section className="specsSection section" data-section="specsSection">
         <div className="wrapper">
           <h2

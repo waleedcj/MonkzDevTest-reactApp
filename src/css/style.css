@@ -76,6 +76,17 @@ video {
   background: transparent;
 }
 
+h5 {
+  font-size: 6px;
+  line-height: 6px;
+  font-family: "IBMPlexMono", sans-serif;
+  color: #dd4040;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  padding: 0;
+}
+
 body {
   line-height: 1;
 }
@@ -239,13 +250,50 @@ form {
   padding: 0px;
   margin: 0px;
 }
-a {
-  color: #100da9;
+.ga1 {
   -webkit-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
   text-decoration: none;
   outline: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgb(255, 255, 255);
+}
+
+.ga2 {
+  color: #dd4040;
+  font-family: "ST-SimpleSquare";
+  display: block;
+  font-size: xx-large;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgb(255, 255, 255);
+}
+
+.ga2:hover {
+  color: #ffffff;
+}
+
+.page {
+  padding: 120px 0;
+}
+
+.ga1:hover {
+  color: #ffffff;
+}
+
+.ga {
+  color: #dd4040;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgb(255, 255, 255);
+}
+
+.ga:hover {
+  color: #ffffff;
 }
 a,
 span,
@@ -4008,7 +4056,7 @@ section {
   }
 }
 .educationPage .education {
-  padding: 57px 0 60px;
+  padding: 120px 0 60px;
 }
 .educationPage .top {
   display: -webkit-box;
@@ -4268,7 +4316,7 @@ section {
   align-items: stretch;
 }
 .courses-swiper .swiper-slide {
-  opacity: 0;
+  opacity: 1;
   height: auto;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
@@ -4382,7 +4430,7 @@ section {
   }
 }
 .coursePage .course {
-  padding-top: 45px;
+  padding-top: 120px;
 }
 .coursePage .course .wrapper {
   max-width: 800px;
@@ -4498,7 +4546,7 @@ section {
   }
 }
 .courseLecturePage .lecture {
-  padding: 46px 0 270px;
+  padding: 120px 0 270px;
 }
 .courseLecturePage .lecture .wrapper {
   max-width: 800px;
@@ -4659,7 +4707,7 @@ section {
   }
 }
 .articlePage .article {
-  padding: 45px 0 30px;
+  padding: 120px 0 30px;
 }
 .articlePage .article .wrapper {
   max-width: 800px;
@@ -4842,7 +4890,7 @@ section {
   }
 }
 .modalSection {
-  padding: 75px 0 70px;
+  padding: 250px 0 70px;
   min-height: calc(100vh - 115px);
 }
 .choose .choose-block {
@@ -5267,7 +5315,7 @@ section {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
-  z-index: 100;
+  z-index: 0;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -5283,7 +5331,7 @@ section {
   display: flex;
 }
 .modal-block {
-  background: #400c0c;
+  background-color: #400c0c;
   max-width: 510px;
   width: 100%;
   height: 100%;
@@ -5292,7 +5340,6 @@ section {
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
-  overflow-y: auto;
   position: relative;
 }
 .modal-back {
@@ -6028,7 +6075,7 @@ section {
   }
 }
 .charactersPage .characters {
-  padding: 45px 0;
+  padding: 120px 0;
 }
 .charactersPage .top {
   display: -webkit-box;
@@ -6742,6 +6789,7 @@ section {
 }
 .characters-modal .modal-content {
   display: -webkit-box;
+  background-color: #521616;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
@@ -6833,7 +6881,7 @@ section {
   }
 }
 .shuhariPage .shuhari {
-  padding: 44px 0 60px;
+  padding: 120px 0 60px;
 }
 .shuhariPage .title-other {
   text-align: center;
@@ -6952,7 +7000,7 @@ section {
   }
 }
 .chiPage .chi {
-  padding-top: 46px;
+  padding-top: 120px;
   padding-bottom: 60px;
 }
 .chiPage .title-other {
@@ -7017,6 +7065,7 @@ section {
 .chiPage .block-num {
   font-weight: 400;
   font-size: 75px;
+  font-family: "ST-SimpleSquare", sans-serif;
   line-height: 75px;
   color: #fff;
 }
@@ -7083,7 +7132,7 @@ section {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding-top: 45px;
+  padding-top: 120px;
   padding-bottom: 170px;
 }
 .monksPage .title-other {
@@ -7223,7 +7272,7 @@ section {
   padding-right: 15px;
 }
 .monksPage .monks-slide__top {
-  background: #dd4040;
+  background: #521616;
   padding: 13px 70px 12px 20px;
 }
 .monksPage .monks-slide__title {

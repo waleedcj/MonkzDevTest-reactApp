@@ -186,7 +186,7 @@ const Manifest = () => {
   // console.log(myElementIsVisible5 + " this is 5");
 
   return (
-    <div>
+    <div id="Manifesto">
       <section className="manifestoSection">
         <div className="wrapper">
           <h4

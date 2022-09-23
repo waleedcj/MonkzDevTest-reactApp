@@ -1,6 +1,5 @@
 //front page of monks will go here
 import React, { useEffect, useState, useRef } from "react";
-import { Helmet } from "react-helmet";
 import WOW from "wowjs";
 import "../css/animate.css";
 import { Parallax, Background } from "react-parallax";
@@ -21,14 +20,6 @@ const Cover = () => {
   ]);
   return (
     <div>
-      <Helmet>
-        <style>
-          {
-            "body { background-color: #1e0000; } zIndex: -1" /* changed the color of the background */
-          }
-        </style>
-      </Helmet>
-
       <section className="mainSection section" data-section="mainSection">
         <Parallax
           bgImage={"img/main/mainSection/build.png"}

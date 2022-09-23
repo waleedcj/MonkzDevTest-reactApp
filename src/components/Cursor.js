@@ -25,6 +25,7 @@ const Cursor = () => {
           ".link",
           "itemspec",
           "titleSpec",
+          "modal",
         ]}
       />
     </>

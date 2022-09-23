@@ -15,7 +15,7 @@ const About = () => {
     }).init(),
   ]);
   return (
-    <div>
+    <div id="About">
       <section className="aboutSection section" data-section="aboutSection">
         <div className="wrapper">
           <h4

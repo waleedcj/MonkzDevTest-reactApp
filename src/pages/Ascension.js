@@ -24,7 +24,7 @@ const Ascension = () => {
   ]);
 
   return (
-    <div>
+    <div id="Ascension">
       <section className="ascensionSection section" data-section="ascension">
         <div className="wrapper">
           <h4

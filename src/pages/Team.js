@@ -77,7 +77,7 @@ const Team = () => {
   };
 
   return (
-    <div>
+    <div id="Team">
       <section className="teamSection section" data-section="team">
         <div className="wrapper">
           <div className="top">

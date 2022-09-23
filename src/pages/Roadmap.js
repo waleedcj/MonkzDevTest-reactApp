@@ -12,7 +12,7 @@ const Roadmap = () => {
     }).init(),
   ]);
   return (
-    <div>
+    <div id="Roadmap">
       <section className="roadmapSection section" data-section="roadmap">
         <div className="wrapper">
           <h4
